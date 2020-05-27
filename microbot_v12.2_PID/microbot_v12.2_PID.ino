@@ -6,10 +6,10 @@ C0d3
 PID for MiCROBOT
 
 Suite with MiCROBOT PCB.
-
 using IR remote
 
 */
+
 #include <QTRSensors.h>
 #include <Servo.h>
 Servo ESC;
@@ -27,10 +27,6 @@ Servo ESC;
 #define PWMB 6  
 #define BIN2 8 
 #define BIN1 7
-
-
-//#define motorPower 9
-
 
 #define A_BaseSpeed 60
 #define B_BaseSpeed 60
@@ -91,7 +87,7 @@ void setup() {
     
     
 
- void loop() { 
+  void loop() { 
            
       PRESS = digitalRead(BUTTON);
 
@@ -148,7 +144,7 @@ void setup() {
 
       }
       
-  } 
+   } 
       
       
  //************************ BASE CODE***********\\﻿
