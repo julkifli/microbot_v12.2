@@ -16,7 +16,7 @@ Servo ESC;
 
 #define BUTTON  2
 
-#define NUM_SENSORS 6 
+#define NUM_SENSORS 8 
 #define TIMEOUT 2500 
 #define EMITTER_PIN 11 
 
@@ -50,7 +50,7 @@ int position;
     int state;
 
 
-QTRSensorsRC qtra((unsigned char[]) {A0, A1, A2, A3, A4 ,A5 } , NUM_SENSORS, TIMEOUT, EMITTER_PIN); 
+QTRSensorsRC qtra((unsigned char[]) {A6, A0, A1, A2, A3, A4 ,A5, A7 } , NUM_SENSORS, TIMEOUT, EMITTER_PIN); 
 unsigned int sensorValues[NUM_SENSORS]; 
 
 void setup() { 
@@ -106,7 +106,7 @@ void setup() {
       position = qtra.readLine(sensorValues); 
 
       
-      error = position - 2500; 
+      error = position - 3500; 
  
       
       motorSpeed = Kp * error + Kd * (error - lastError)+ Ki * integral; 
