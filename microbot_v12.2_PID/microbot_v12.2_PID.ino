@@ -28,22 +28,26 @@ Servo ESC;
 #define BIN2 8 
 #define BIN1 7
 
-#define A_BaseSpeed 60
-#define B_BaseSpeed 60
+//Tune all this value ----
+
+#define A_BaseSpeed 60 //speed for motor A
+#define B_BaseSpeed 60 //speed for motor B
+float Kp = 0.01; //Constant of Propottional Value
+float Kd = 1.0;  //Constant of Derivative Value
+float Ki = 0.000; 
+
+//End of tuning ----
 
 int PRESS;
 int motorSpeed;
 int error;
 int position;
 
-    int lastError = 0; 
-    float Kp = 0.01; 
-    float Kd = 1.0; 
-    float Ki = 0.000; 
-    int MotorA_Speed = 0; 
-    int MotorB_Speed = 0; 
-    int integral = 0;
-    int state;
+int lastError = 0; 
+int MotorA_Speed = 0; 
+int MotorB_Speed = 0; 
+int integral = 0;
+int state;
 
 
 QTRSensorsRC qtra((unsigned char[]) {A6, A0, A1, A2, A3, A4 ,A5, A7 } , NUM_SENSORS, TIMEOUT, EMITTER_PIN); 
