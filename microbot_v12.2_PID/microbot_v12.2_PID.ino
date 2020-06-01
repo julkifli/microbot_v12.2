@@ -32,7 +32,7 @@ Servo ESC;
 
 #define A_BaseSpeed 60 //speed for motor A
 #define B_BaseSpeed 60 //speed for motor B
-float Kp = 0.01; //Constant of Propottional Value
+float Kp = 0.01; //Constant of Proportional Value
 float Kd = 1.0;  //Constant of Derivative Value
 float Ki = 0.000; 
 
