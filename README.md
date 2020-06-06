@@ -1,4 +1,4 @@
-# MiCROBOT v12.2
+# MiCROBOT v12.2 [aka] MiCROBOT HiKARi
 Advanced Line Follower Robot
 
 A fast line follower is an intelligent robot that must detect
