@@ -1,5 +1,5 @@
 /*
-MiCROBOT V12.2
+MiCROBOT V12.2 {aka} MiCROBOT HiKARi
 
 Julkifli Awang Besar
 C0d3
