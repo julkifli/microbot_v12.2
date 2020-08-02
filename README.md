@@ -11,7 +11,7 @@ MiCROBOT developed MiCROBOT v12.2 equipted with EDF 27mm.
 *Required Pololu QTR Sensor 3.0.0 Library:
 https://github.com/pololu/qtr-sensors-arduino/archive/3.0.0.zip
 
-Video Link 1: https://youtu.be/nu06WdKoN60 <p>
+Video Link 1: https://youtu.be/nu06WdKoN60 <br>
 Video Link 2: https://youtu.be/UKLd2BR83Ls
 
 ![alt_tag](https://raw.githubusercontent.com/julkifli/microbot_v12.2/master/images/DIAGRAM-MICROBOT-V12.2-small.jpg)
