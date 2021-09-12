@@ -5,7 +5,7 @@
 //edit bye neo
 
 // use thelatest QTRSensors Library version 4.0
-// install from arduino library manager, search for "QTRSensors" and the version is 4.0
+// install from arduino library manager, search for "QTRSensors" and the version is 4.0 https://github.com/pololu/qtr-sensors-arduino
 #include <QTRSensors.h>
 
 #define BUTTON 12
